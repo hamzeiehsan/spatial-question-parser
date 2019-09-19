@@ -1,0 +1,15 @@
+color red is assigned to the source competency questions for iaoa
+color green is assigned to the source publication
+color yellow is assigned to the source gis textbook
+
+
+
+
+color red is assigned to q_type location
+color orange is assigned to q_type optimal path
+color black is assigned to q_type identification
+color yellow is assigned to q_type condition
+color green is assigned to q_type trend
+color blue is assigned to q_type impact
+color purple is assigned to q_type pattern
+color brown is assigned to q_type method

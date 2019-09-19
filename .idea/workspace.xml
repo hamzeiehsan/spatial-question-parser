@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/main.py" line="410" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d35f0c57-2a35-4412-9ace-dc06ccfe531c" name="Default Changelist" comment="initial commit -- version 0.1">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/geospatial-question-parser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/activities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/intents.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/objects.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/ointents.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/oqualities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/pnames.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/ptypes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/qualities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/relations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/situations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/201-GSGeoQA-Dataset/tintents.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/activities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/intents.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/objects.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/ointents.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/oqualities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/pnames.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/ptypes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/qualities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/relations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/situations.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/backup/Simon-dataset/tintents.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/common_word/top10000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/common_word/top10000.txt_backup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gazetteer/abbr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gazetteer/countries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gazetteer/gazetteer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/201-GSQuestions-dataset/analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/201-GSQuestions-dataset/analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/201-dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/Analyzed_Questions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/Question corpus_20190918.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/Question corpus_Qtype_Stypes_20190918.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/Question corpus_UU.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/Simon-dataset/analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/Simon-dataset/analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/all_codes_msmarco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/analyzed_question_new_parser_source_and_type.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/backup/201-GSQuestions-dataset/analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/backup/201-GSQuestions-dataset/analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/backup/Simon-dataset/analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/backup/Simon-dataset/analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/o-analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/o-analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-a-a-a-a-analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-a-a-a-a-analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-a-a-a-analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-a-a-a-analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-a-a-analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-a-a-analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-a-analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-a-analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-analyzed_question_new_parser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/old/o-analyzed_question_new_parser_issues.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/geoaq/unique_codes_msmarco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/place_type/filtered-place-types.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/place_type/json2value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/place_type/my_type" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/place_type/place_type.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/place_type/raw-place-types.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/place_type/type-set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/prep/prep.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sp_relation/sp_relation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/verb/action_verb.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/verb/action_verb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/verb/stative_verb.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/verb/stative_verb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/verb/test_sentence.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/verb/test_sentence.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dummy_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elmoresults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/1-activity-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/1-intent-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/1-object-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/1-oquality-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/1-pnames-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/1-quality-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/1-situation-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/1-type-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/activities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/objects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/ointents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/oqualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/pnames.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/ptypes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/qualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/questions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/situations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/201-GSGeoQA-Dataset/tintents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/2d_encoding_comparison-without-sampling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/2d_encoding_comparison-without-sampling_9d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/2d_encoding_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/2d_encoding_comparison_9d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/2d_encoding_comparison_q_type.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/2d_encoding_comparison_source.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/MS-MARCO/Name word cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/MS-MARCO/Objects word cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/MS-MARCO/Types word cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/MS-MARCO/acts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/MS-MARCO/qualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/MS-MARCO/sits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/1-activity-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/1-intent-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/1-object-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/1-oquality-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/1-pnames-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/1-quality-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/1-situation-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/1-type-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/activities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/objects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/ointents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/oqualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/pnames.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/ptypes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/qualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/questions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/situations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Simon-dataset/tintents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/1-activity-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/1-intent-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/1-object-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/1-oquality-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/1-pnames-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/1-quality-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/1-situation-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/1-type-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/activities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/objects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/ointents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/oqualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/pnames.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/ptypes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/qualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/questions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/situations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/201-GSGeoQA-Dataset/tintents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/2d_encoding_comparison-without-sampling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/2d_encoding_comparison-without-sampling_9d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/2d_encoding_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/2d_encoding_comparison_9d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/MS-MARCO/Name word cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/MS-MARCO/Objects word cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/MS-MARCO/Types word cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/MS-MARCO/acts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/MS-MARCO/qualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/MS-MARCO/sits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/1-activity-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/1-intent-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/1-object-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/1-oquality-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/1-pnames-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/1-quality-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/1-situation-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/1-type-emb-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/activities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/objects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/ointents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/oqualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/pnames.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/ptypes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/qualities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/questions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/situations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/backup/Simon-dataset/tintents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/description_source_q_type.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrams/backup/201-GSGeoQA-Dataset-ngrams.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrams/backup/MS_MARCO_ALL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrams/backup/MS_MARCO_UNIQUE.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngrams/backup/Simon-dataset-ngrams.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pret.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocabulary/labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocabulary/non_padded_namespaces.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocabulary/tokens.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="583" column="52" selection-start-line="583" selection-start-column="52" selection-end-line="583" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="107" column="93" selection-start-line="107" selection-start-column="93" selection-end-line="107" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pret.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#46#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>elmo</find>
+      <find>oqual</find>
+      <find>ParseTr</find>
+      <find>Node</find>
+      <find>leaves</find>
+      <find>all_inf</find>
+      <find>wordc</find>
+      <find>write_2d_scatter_plot</find>
+      <find>read</find>
+      <find>vectors.ap</find>
+      <find>wrd</find>
+      <find>read_</find>
+      <find>print</find>
+      <find>generate</find>
+      <find>n-gram</find>
+      <find>ngrams/</find>
+      <find>merge</find>
+      <find>frequen</find>
+      <find>merge_n_gram_dicts</find>
+      <find>gener</find>
+      <find>write_2d_scatter_comparison_plot</find>
+      <find>translate_16d_to_9d</find>
+      <find>GeoAN</find>
+      <find>GeoAna</find>
+      <find>9d</find>
+      <find>Sentence</find>
+      <find>read_fi</find>
+      <find>vector</find>
+      <find>result_dict</find>
+      <find>source</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>all_intent_nodes = all_intent_nodes.union</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pretrained.py" />
+        <option value="$PROJECT_DIR$/elmoresults.py" />
+        <option value="$PROJECT_DIR$/ner.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/tools/test.py" />
+        <option value="$PROJECT_DIR$/tools/__init__.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/data/common_word/top10000.txt" />
+        <option value="$PROJECT_DIR$/data/place_type/place_type.txt" />
+        <option value="$PROJECT_DIR$/dummy_test.py" />
+        <option value="$PROJECT_DIR$/data/place_type/type-set" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/visualization.py" />
+        <option value="$PROJECT_DIR$/pret.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="1950" />
+    <option name="height" value="2075" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="geospatial-question-parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geospatial-question-parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geospatial-question-parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="geoaq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geospatial-question-parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="place_type" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hamze\PycharmProjects\test-nlp" />
+      <recent name="C:\Users\hamze\PycharmProjects\test-nlp\tools" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hamze\PycharmProjects\test-nlp\data" />
+      <recent name="C:\Users\hamze\PycharmProjects\test-nlp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.visualization">
+    <configuration name="dummy_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geospatial-question-parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dummy_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geospatial-question-parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geospatial-question-parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geospatial-question-parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geospatial-question-parser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.visualization" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.dummy_test" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python.test (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d35f0c57-2a35-4412-9ace-dc06ccfe531c" name="Default Changelist" comment="" />
+      <created>1567593357732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567593357732</updated>
+      <workItem from="1567593358995" duration="14109000" />
+      <workItem from="1568464350934" duration="47970000" />
+      <workItem from="1568663928021" duration="56740000" />
+      <workItem from="1568881019250" duration="560000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="119379000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25955734" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3569405" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43342775" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.31924883" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" visible="true" weight="0.12608987" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25285044" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9575071" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3427762" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43342775" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="intial commit -- version 0.1" />
+    <MESSAGE value="initial commit -- version 0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit -- version 0.1" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>263</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dummy_test.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="a_types_nodes" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test_nlp$test.coverage" NAME="test Coverage Results" MODIFIED="1568479064615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_nlp$pretrained.coverage" NAME="pretrained Coverage Results" MODIFIED="1568468530337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_nlp$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1568634037737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_nlp$visualization.coverage" NAME="visualization Coverage Results" MODIFIED="1568826640400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_nlp$main.coverage" NAME="main Coverage Results" MODIFIED="1568824603042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_nlp$ner.coverage" NAME="ner Coverage Results" MODIFIED="1568569230014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_nlp$utils.coverage" NAME="utils Coverage Results" MODIFIED="1568733520501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_nlp$dummy_test.coverage" NAME="dummy_test Coverage Results" MODIFIED="1568735934705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_nlp$elmoresults.coverage" NAME="elmoresults Coverage Results" MODIFIED="1568568328099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vocabulary/labels.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vocabulary/tokens.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/Lib/site-packages/allennlp/pretrained.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="77" selection-start-line="77" selection-end-line="85" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/place_type/my_type">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/tools/test.py" />
+    <entry file="file://$PROJECT_DIR$/tools/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/data/common_word/top10000.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/Lib/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/Lib/site-packages/allennlp/modules/elmo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="230" column="4" selection-start-line="230" selection-start-column="4" selection-end-line="230" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="24" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="1462" selection-start-line="1462" selection-end-line="1462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/place_type/place_type.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/Lib/site-packages/pandas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="2689" column="4" selection-start-line="2689" selection-start-column="4" selection-end-line="2689" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dummy_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/place_type/type-set">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="691" column="19" selection-start-line="691" selection-start-column="19" selection-end-line="691" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elmoresults.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="4693" selection-start-line="4693" selection-end-line="4693" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="583" column="52" selection-start-line="583" selection-start-column="52" selection-end-line="583" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="107" column="93" selection-start-line="107" selection-start-column="93" selection-end-line="107" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pret.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#46#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
